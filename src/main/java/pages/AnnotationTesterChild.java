@@ -30,17 +30,17 @@ public class AnnotationTesterChild extends AnnotationTester {
         System.out.println("Before test inherited");
     }
 
-    @Test
+    @Test (groups = {"testOne"})
     public void testOneChild() {
         System.out.println("Test one inherited");
     }
 
-    @Test
+    @Test (groups = {"testTwo"})
     public void testTwoChild() {
         System.out.println("Test two inherited");
     }
 
-    @Test
+    @Test (groups = {"testThree"})
     public void testThreeChild() {
         System.out.println("Test three inherited");
     }

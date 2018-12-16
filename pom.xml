@@ -16,6 +16,7 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/testngOne.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/testngTwo.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
